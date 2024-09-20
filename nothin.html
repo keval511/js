@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body id="1">
+    
+    <div style="background-color: red;height: 200px;width: 200px;float: left;" onmouseenter="ab1()" onmouseleave="ab2()" ></div>
+    <div style="background-color: green;height: 200px;width: 200px;float: left;"></div>
+    <div style="background-color: black;height: 200px;width: 200px;float: left;"></div>
+    <div style="background-color: grey;height: 200px;width: 200px;float: left;" onmouseenter="abc()" onmouseleave="abc1()" ></div>
+    <button  onmouseleave="xyz1()" onmouseenter="xyz()">
+        <i class="fa fa-bars " aria-hidden="true" style="font-size: 25px;"></i>
+    </button>
+    <div style="display: none;height: 200px;width:200px"id="123"   ><b>e-borucher</b><br><b>Gallery</b></div>
+
+
+    <script>
+function ab1(){
+    document.getElementById('1').style.cssText="background:red"
+}
+function ab2(){
+    document.getElementById('1').style.cssText="background:none"
+}
+function abc(){
+    document.getElementById('1').style.cssText="background:pink"
+}
+function abc1()
+{
+    document.getElementById('1').style.cssText="background:none    "
+}
+
+function xyz(){
+    document.getElementById('123').style.display="block"
+}
+
+function xyz1(){
+    document.getElementById('123').style.display="none"
+}
+
+    </script>
+
+</body>
+
+
+</html>

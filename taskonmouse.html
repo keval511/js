@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="2">
+    <div style="height: 200px;width: 100%;">
+    <div style="height: 200px;width: 20%;border: solid 1px;float: left;margin-left: 4px;background: red;"  onmouseenter="ab()" onmouseleave="ab1()" ></div>
+    <div style="height: 200px;width: 20%;border: solid 1px;float: left;margin-left: 4px;background:green;"  onmouseenter="cd()" onmouseleave="cd1()" ></div>
+    <div style="height: 200px;width: 20%;border: solid 1px;float: left;margin-left: 4px;background:yellow;" onmouseenter="ef()" onmouseleave="ef1()" ></div>
+    <div style="height: 200px;width: 20%;border: solid 1px;float: left;margin-left: 4px;background:grey;" onmouseenter="gh()" onmouseleave="gh1()" ></div>
+    </div>
+
+
+    <script>
+function ab(){
+    document.getElementById('2').style.cssText="background:red;height:200px;"
+}
+
+function ab1(){
+    document.getElementById('2').style.cssText="background:white"
+}
+
+
+function cd(){
+    document.getElementById('2').style.cssText="background:green;height:200px"
+}
+
+function cd1(){
+    document.getElementById('2').style.cssText="background:white"
+}
+
+
+function ef(){
+    document.getElementById('2').style.cssText="background:yellow;height:200px"
+}
+
+function ef1(){
+    document.getElementById('2').style.cssText="background:white"
+}
+
+function gh(){
+    document.getElementById('2').style.cssText="background:grey;height:200px;"
+}
+
+function gh1(){
+    document.getElementById('2').style.cssText="background:white"
+}
+
+
+    </script>
+</body>
+</html>
